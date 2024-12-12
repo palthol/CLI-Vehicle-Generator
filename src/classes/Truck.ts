@@ -9,13 +9,13 @@ import AbleToTow from '../interfaces/AbleToTow.js';
 // It also implements the AbleToTow interface to define towing capabilities
 class Truck extends Vehicle implements AbleToTow {
   // Declare properties of the Truck class
-  vin: string;
-  color: string;
-  make: string;
-  model: string;
-  year: number;
-  weight: number;
-  topSpeed: number;
+  override vin: string;
+  override color: string;
+  override make: string;
+  override model: string;
+  override year: number;
+  override weight: number;
+  override topSpeed: number;
   wheels: Wheel[];
   towingCapacity: number;
 

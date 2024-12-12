@@ -4,13 +4,13 @@ import Wheel from './Wheel.js';
 
 // Motorbike class extending the Vehicle class
 class Motorbike extends Vehicle {
-  vin: string;
-  color: string;
-  make: string;
-  model: string;
-  year: number;
-  weight: number;
-  topSpeed: number;
+  override vin: string;
+  override color: string;
+  override make: string;
+  override model: string;
+  override year: number;
+  override weight: number;
+  override topSpeed: number;
   wheels: Wheel[];
 
   // Constructor to initialize the Motorbike class
