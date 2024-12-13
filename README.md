@@ -23,7 +23,10 @@ The **CLI Vehicle Device Generator** is an interactive command-line application 
 
 ---
 
-## Installation
+## Installation and Walkthrough
+
+*For a detailed walkthrough of the application, click on this [link](https://drive.google.com/file/d/1FSw_B_kZE7EVy09wkpyqmVgN2PsN2mu4/view?usp=sharing).*
+
 
 1. Clone the repository to your local machine:
 
